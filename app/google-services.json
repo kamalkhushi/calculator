@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717641459726",
+    "firebase_url": "https://calc-test-login.firebaseio.com",
+    "project_id": "calc-test-login",
+    "storage_bucket": "calc-test-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717641459726:android:abc4e0a3312e233e6f345f",
+        "android_client_info": {
+          "package_name": "com.fukusha.calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717641459726-9ta90nqjt73qsbhhdn8osimj6dbi2sv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjuK1Ui6_fOG4-SUg4r9Gdcb_MsMCDnrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717641459726-9ta90nqjt73qsbhhdn8osimj6dbi2sv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
