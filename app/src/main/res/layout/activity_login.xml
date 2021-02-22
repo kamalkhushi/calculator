@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
+
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
@@ -125,131 +125,6 @@ android:background="@drawable/as2">
     </RelativeLayout>
 
 </ScrollView>
-=======
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    tools:context=".Login"
-    android:background="@drawable/as2">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <RelativeLayout
-            android:layout_margin="20dp"
-            android:background="@drawable/layout_background_rounded"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true">
-
-            <TextView
-                android:id="@+id/rr"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="20dp"
-                android:gravity="center"
-                android:text="Ready Reckoner"
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                android:textStyle="bold">
-            </TextView>
-
-            <TextView
-                android:id="@+id/ltv"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/rr"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="20dp"
-                android:gravity="center"
-                android:text="Login"
-                android:textColor="@color/black"
-                android:textSize="25sp">
-            </TextView>
-
-            <EditText
-                android:id="@+id/log_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ltv"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="20dp"
-                android:hint="@string/em"
-                android:inputType="textEmailAddress">
-            </EditText>
-
-            <EditText
-                android:id="@+id/log_pass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/log_email"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="20dp"
-                android:hint="@string/pass"
-                android:inputType="textPassword">
-            </EditText>
-
-            <Button
-                android:id="@+id/btn_login"
-                android:background="@drawable/rounded_corners"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/log_pass"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:text="@string/login">
-            </Button>
-
-            <LinearLayout
-                android:id="@+id/lin17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/btn_login"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="New User? "
-                    android:textColor="@color/black">
-                </TextView>
-
-                <TextView
-                    android:id="@+id/reg_redirect"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Register Here"
-                    android:textColor="@color/blue">
-                </TextView>
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/for_pass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/lin17"
-                android:layout_margin="10dp"
-                android:gravity="center"
-                android:text="@string/fpass"
-                android:textColor="@color/black">
-            </TextView>
-
-        </RelativeLayout>
-
-    </ScrollView>
->>>>>>> f1bf0f1381cb4c57b718cc1d9057c692d43bf4d5
 
 </RelativeLayout>
